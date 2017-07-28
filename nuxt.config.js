@@ -1,4 +1,18 @@
 module.exports = {
+  /**
+   * 在页面组件中引入过渡效果
+   * export default {
+      // 可以是字符
+      transition: ''
+      // 或对象
+      transition: {}
+      // 或函数
+      transition (to, from) {}
+    }
+   */
+  css: [
+    'assets/main.css'
+  ],
   /*
   ** Headers of the page
   */
